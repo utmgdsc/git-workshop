@@ -6,7 +6,7 @@ def calc_sum_of_numbers_in_file(filename: str) -> int:
     """
     file = open("./files/{}".format(filename))
     data = file.read().split(",")
-    # person 2 made a change here
+    # person 1 made a change here
     sum = 0
     for item in data:
         sum += int(item)
