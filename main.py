@@ -13,7 +13,7 @@ while file_name != "q":
         result = calc_sum_of_numbers_in_file(file_name)
         print("The sum of the numbers in file {} is {}.\n\n".format(file_name, result))
     except Exception:
-        print("There was an error opening/reading the file.\n\n")
+        print("There was an error opening/reading the file\n\n")
         
     file_name = input(enter_file_text_prompt)
         
